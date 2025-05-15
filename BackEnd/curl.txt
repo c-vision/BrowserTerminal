@@ -1,0 +1,57 @@
+1. Test Endpoint di Login (/api/login)
+bash
+
+curl -X POST "http://localhost:5046/api/login" \
+     -H "Content-Type: application/json" \
+     -d '{"username":"admin","password":"admin123"}' \
+     -v
+
+Spiegazione:
+
+Invia una richiesta POST con le credenziali dell'admin (da users.json).
+
+Il flag -v mostra i dettagli della risposta (utile per estrarre il token JWT).
+
+2. Test Endpoint di Esecuzione Comandi (/api/terminal/execute)
+bash
+
+curl -X POST "http://localhost:5046/api/terminal/execute" \
+     -H "Content-Type: application/json" \
+     -H "Authorization: Bearer <INSERISCI_IL_TOKEN_QUI>" \
+     -d '{"command":"help"}' \
+     -v
+
+Sostituisci <INSERISCI_IL_TOKEN_QUI> con il token JWT ottenuto dalla risposta del login.
+Esempio di comandi validi:
+
+"help"
+"echo Hello World"
+"clear"
+
+Note Importanti:
+Porta del Server:
+Assicurati che la porta (5046) corrisponda a quella configurata in appsettings.Development.json.
+
+Controllo Errori:
+
+Se ottieni 401 Unauthorized, verifica:
+
+Il token JWT è valido e non scaduto.
+
+Il token è incluso correttamente nell'header Authorization.
+
+Se ottieni 404 Not Found, controlla che gli endpoint siano mappati correttamente nei controller.
+
+Ambiente di Sviluppo:
+Avvia il server in modalità sviluppo per vedere i log dettagliati:
+
+bash
+dotnet run --environment Development
+Per ulteriori test, puoi usare strumenti come Postman o Thunder Client (VSCode).
+
+
+curl POST "http://localhost:8080/api/login" -H "Content-Type: application/json" -d '{"username":"admin","password":"admin123"}' -v
+
+curl POST "http://localhost:5046/api/terminal/execute" -H "Content-Type: application/json" -H "Authorization: Bearer <INSERISCI_IL_TOKEN_QUI>" \
+     -d '{"command":"help"}' -v
+     
