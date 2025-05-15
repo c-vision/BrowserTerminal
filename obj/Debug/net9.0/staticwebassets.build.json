@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "Hash": "+63imsorKPcXDgUrvoSPeITWH402HEfTKmGla7IOl04=",
+  "Source": "BrowserTerminal",
+  "BasePath": "_content/BrowserTerminal",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BrowserTerminal/wwwroot",
+      "Source": "BrowserTerminal",
+      "ContentRoot": "/Users/gaetano/Documents/Projects/Microsoft/TestRider/BrowserTerminal/wwwroot/",
+      "BasePath": "_content/BrowserTerminal",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/gaetano/Documents/Projects/Microsoft/TestRider/BrowserTerminal/obj/Debug/net9.0/compressed/94f2cax75z-w26r7k0dr7.gz",
+      "SourceId": "BrowserTerminal",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gaetano/Documents/Projects/Microsoft/TestRider/BrowserTerminal/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/BrowserTerminal",
+      "RelativePath": "index#[.{fingerprint=w26r7k0dr7}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/gaetano/Documents/Projects/Microsoft/TestRider/BrowserTerminal/wwwroot/index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "8pty2lw07r",
+      "Integrity": "JH9vfuXbdEHa+pAqUiDSAfjkqqXJr0X0aN5r9iWW9s4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/gaetano/Documents/Projects/Microsoft/TestRider/BrowserTerminal/wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/gaetano/Documents/Projects/Microsoft/TestRider/BrowserTerminal/wwwroot/index.html",
+      "SourceId": "BrowserTerminal",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gaetano/Documents/Projects/Microsoft/TestRider/BrowserTerminal/wwwroot/",
+      "BasePath": "_content/BrowserTerminal",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w26r7k0dr7",
+      "Integrity": "eDG0jfBLzIvJxt3qTtOLoWa9xn47oKwVckRJj2P/pjQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/gaetano/Documents/Projects/Microsoft/TestRider/BrowserTerminal/obj/Debug/net9.0/compressed/94f2cax75z-w26r7k0dr7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000442869796"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2257"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JH9vfuXbdEHa+pAqUiDSAfjkqqXJr0X0aN5r9iWW9s4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 11:10:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"eDG0jfBLzIvJxt3qTtOLoWa9xn47oKwVckRJj2P/pjQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eDG0jfBLzIvJxt3qTtOLoWa9xn47oKwVckRJj2P/pjQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/gaetano/Documents/Projects/Microsoft/TestRider/BrowserTerminal/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7392"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eDG0jfBLzIvJxt3qTtOLoWa9xn47oKwVckRJj2P/pjQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 11:10:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eDG0jfBLzIvJxt3qTtOLoWa9xn47oKwVckRJj2P/pjQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "/Users/gaetano/Documents/Projects/Microsoft/TestRider/BrowserTerminal/obj/Debug/net9.0/compressed/94f2cax75z-w26r7k0dr7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2257"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JH9vfuXbdEHa+pAqUiDSAfjkqqXJr0X0aN5r9iWW9s4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 11:10:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JH9vfuXbdEHa+pAqUiDSAfjkqqXJr0X0aN5r9iWW9s4="
+        }
+      ]
+    },
+    {
+      "Route": "index.w26r7k0dr7.html",
+      "AssetFile": "/Users/gaetano/Documents/Projects/Microsoft/TestRider/BrowserTerminal/obj/Debug/net9.0/compressed/94f2cax75z-w26r7k0dr7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000442869796"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2257"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JH9vfuXbdEHa+pAqUiDSAfjkqqXJr0X0aN5r9iWW9s4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 11:10:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"eDG0jfBLzIvJxt3qTtOLoWa9xn47oKwVckRJj2P/pjQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w26r7k0dr7"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eDG0jfBLzIvJxt3qTtOLoWa9xn47oKwVckRJj2P/pjQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.w26r7k0dr7.html",
+      "AssetFile": "/Users/gaetano/Documents/Projects/Microsoft/TestRider/BrowserTerminal/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7392"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eDG0jfBLzIvJxt3qTtOLoWa9xn47oKwVckRJj2P/pjQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 11:10:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w26r7k0dr7"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eDG0jfBLzIvJxt3qTtOLoWa9xn47oKwVckRJj2P/pjQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.w26r7k0dr7.html.gz",
+      "AssetFile": "/Users/gaetano/Documents/Projects/Microsoft/TestRider/BrowserTerminal/obj/Debug/net9.0/compressed/94f2cax75z-w26r7k0dr7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2257"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JH9vfuXbdEHa+pAqUiDSAfjkqqXJr0X0aN5r9iWW9s4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 11:10:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w26r7k0dr7"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JH9vfuXbdEHa+pAqUiDSAfjkqqXJr0X0aN5r9iWW9s4="
+        }
+      ]
+    }
+  ]
+}
